@@ -1,8 +1,8 @@
 pipeline {
     agent any
     parameters {
-        string(name: 'component', defaultValue: 'Mr Jenkins', description: 'Component Name')
-        string(name: 'appVersion', defaultValue: 'Mr Jenkins', description: 'Component appVersion')
+        string(name: 'component', defaultValue: '', description: 'Component Name')
+        string(name: 'appVersion', defaultValue: '', description: 'Component appVersion')
     }
 
 
